@@ -1,0 +1,137 @@
+main {
+    font-family: 'Gilda Display', serif;
+        
+    font-size: 20px;
+    color: white;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-titulo{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 48px;
+    color: white;
+}
+
+.cabecalho-imagem-logo{
+    height: 72px;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.conteudo{
+    border-top: 0.4px solid #460052;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: left;
+}
+
+.conteudo-principal-subtitulo{
+    display: flex;
+    margin-left: 300px;
+    gap: 32px;
+}
+
+
+.lista-de-imagem{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    padding-left: 100px;
+}
+
+.lista-de-imagem2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    padding-left: 100px;
+}
+/*.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    column-gap: 20px;
+}*/
+
+/*(.conteudo-principal-foto{
+    position: fixed;
+    width: 366px;
+    height: 328px;
+    left: 690px;
+    top: 177px;
+    
+}*/
+
+
+
+.conteudo-foto-perfil{
+    position: absolute;
+    width: 380px;
+    height: 385px;
+    left: 1033px;
+    top: 170px;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.nome{
+    font-weight: 400;
+    font-size: 36px;
+    padding-left: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+
+.botao-instagram{
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    color: white;
+}
+
+.botao-whatsapp{
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    background: #00b327;
+    margin-left: 25px;
+    color: white;
+}
+
+.conteudo-secundario-paragrafo{
+    margin-left: 100px;
+}
+
+footer{
+    font-family: 'Lobster', cursive;
+    color: white;
+    margin: 30px;
+    border-top: 0.4px solid #460052;
+    height: 30px;
+}

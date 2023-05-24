@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #A700C2 16.62%, #A656C2 85.61%);
+}
+
+ul{
+    list-style: none;
+}
